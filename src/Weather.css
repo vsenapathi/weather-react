@@ -1,0 +1,35 @@
+body {
+  background: black;
+  color: white;
+}
+
+.tempValue {
+  font-size: 80px;
+}
+
+.disabled {
+  color: white;
+  text-decoration: none;
+}
+
+.conditions ul {
+  list-style: none;
+}
+
+.hero {
+  padding: 0 !important;
+  text-align: right;
+  display: block;
+}
+
+.conditionIcon {
+  width: 75px;
+}
+.forecastTemp {
+  font-size: 14px;
+  display: inline;
+  text-align: center;
+}
+.forecastLow {
+  opacity: 75%;
+}

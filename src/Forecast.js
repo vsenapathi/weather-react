@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Forecast() {
   return (
-    <div className="Forecast">
+    <div className="Forecast container justify-content-evenly align-items-center">
       <div className="row">
         <div className="col">
           <div className="row today">Tue</div>

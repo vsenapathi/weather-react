@@ -6,6 +6,26 @@ import Forecast from "./Forecast";
 export default function Weather() {
   return (
     <div className="Weather container ">
+      <form>
+        <div className="row mb-5">
+          <div className="col-4">
+            <input
+              type="search"
+              name="Search Box"
+              id="searchBox"
+              className="form-control"
+              placeholder="Enter A City"
+            />
+          </div>
+          <div className="col-4">
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-warning col-3"
+            />
+          </div>
+        </div>
+      </form>
       <div className="row">
         <div className="col-1 currentIcon d-flex justify-content-end align-items-center">
           <img
